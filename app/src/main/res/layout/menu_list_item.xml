@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img_fruit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="수박"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txt_content"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="수박입니다."
+        android:textSize="20dp"
+        android:layout_below="@id/txt_title"
+        android:layout_centerHorizontal="true"
+        android:autoText="false" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
